@@ -17,20 +17,26 @@ AI-powered legal assistant for drafting municipal tenders in Israel.
 
 ### Backend
 
-```bash
 cd backend
 pip install -r requirements.txt
-Create a .env file based on .env.example and add your Anthropic API key:
 
+
+
+Create a `.env` file and add your Anthropic API key:
 
 ANTHROPIC_API_KEY=your-api-key-here
 
+
 uvicorn main:app --reload --port 8001
-Frontend
+
+
+
+### Frontend
 
 cd frontend
 npm install
 npm run dev
+
+
+
 Open http://localhost:5173 in your browser.
-
-
