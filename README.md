@@ -18,6 +18,7 @@ AI-powered legal assistant for drafting municipal tenders in Israel.
 ### Backend
 
 cd backend
+
 pip install -r requirements.txt
 
 
@@ -34,7 +35,9 @@ uvicorn main:app --reload --port 8001
 ### Frontend
 
 cd frontend
+
 npm install
+
 npm run dev
 
 
