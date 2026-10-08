@@ -1,0 +1,21 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  font-family: 'Segoe UI', 'Arial Hebrew', Arial, Helvetica, sans-serif;
+  direction: rtl;
+}
+
+body {
+  background: #f0f2f5;
+  color: #1a1a2e;
+  -webkit-font-smoothing: antialiased;
+}
