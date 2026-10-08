@@ -26,10 +26,11 @@ Create a .env file based on .env.example and add your Anthropic API key:
 ANTHROPIC_API_KEY=your-api-key-here
 
 uvicorn main:app --reload --port 8001
-
-### fronted
+Frontend
 
 cd frontend
 npm install
 npm run dev
 Open http://localhost:5173 in your browser.
+
+
